@@ -1,0 +1,157 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    /* outline: 1px solid red; */
+}
+
+/* Generic Selectors */
+
+.main {
+    gap: 75px;
+    margin-top: 2%;
+}
+
+body {
+    background-image: url("./imgs/NinjaBG.jpg");
+    background-attachment: fixed;
+    background-size: auto 60%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.col1 {
+    flex: 2;
+    margin-bottom: 10px;
+}
+
+.col2 {
+    flex: 1;
+}
+
+.box-shadow {
+    box-shadow: 10px 5px 5px black;
+}
+
+.border {
+    border: 3px solid black;
+}
+
+
+/* Nav Bar CSS */
+
+.nav {
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(rgb(141, 141, 141), rgb(88, 88, 88), rgb(141, 141, 141));
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 3px solid black;
+}
+
+h1 {
+    font-size: 36pt;
+    margin-right: auto;
+}
+
+.nav input {
+    width: 500px;
+    height: 30px;
+}
+
+.button1 {
+    margin-left: auto;
+    width: 75px;
+    height: 30px;
+    background-color: rgb(62, 178, 255);
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+}
+
+/* Ninja 1 & 2 Box CSS */
+
+.ninja1 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(219, 219, 219), rgb(255, 255, 255));
+    margin-bottom: 3%;
+}
+
+.ninja1Container {
+    padding: 10px;
+    border-right: 3px solid black;
+    text-align: center;
+}
+
+.ninjaDef {
+    font-weight: 700;
+    font-size: 18pt;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.p2 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.button2 {
+    margin-left: auto;
+    width: 105px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(252, 255, 62);
+    color: black;
+    font-weight: 500;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+/* .button2::after {
+    content: " Likes";
+    font-weight: bold;
+} */
+
+/* Column 2 CSS */
+
+.p3 {
+    font-size: 20pt;
+    padding: 5px;
+}
+
+.ninja2Container {
+    padding: 5px;
+    text-align: center;
+}
+
+.button3 {
+    margin-left: auto;
+    width: 155px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(106, 177, 49);
+    color: black;
+    font-weight: 500;
+    font-size: 14pt;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}

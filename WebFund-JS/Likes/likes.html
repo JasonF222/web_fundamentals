@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Likes</title>
+    <link rel="stylesheet" href="likes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="nav d-flex">
+            <h1>Navigation</h1>
+        </div>
+
+        <h1 class="header">Your Feed</h1>
+
+    <div class="masterMain d-flex">
+
+    <div class="avatarContainer">
+        <div class="avatar">
+            <img src="https://placekeanu.com/100" alt="Keanu" class="avatar-s">
+            <p><a href="#">add an avatar</a></p>
+            <h1>James Doe</h1>    
+        </div>
+    </div>
+
+    <div class="master">
+        <div class="container d-flex">
+            <h1>Neil M</h1>
+            <div class="likeStack"> 
+                <span class="likes"><a id="clicks">9</a> Like(s)</span>
+                <button type="button" onClick="onClick()" class="button shadow">Like</button>
+            </div>
+        </div>
+        <div class="pContainer">
+            <p>I just set up this new discord bot, let me know what you all think. <a href="#">Link</a></p>
+        </div>
+
+        <div class="container d-flex">
+            <h1>Nichole K</h1>
+            <div class="likeStack">
+                <span class="likes"><a id="clicks2">8</a> Like(s)</span>
+                <button type="button" onClick="onClick2()" class="button shadow">Like</button>
+            </div>
+        </div>
+        <div class="pContainer">
+            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+        </div>
+
+        <div class="container d-flex">
+            <h1>Jim R</h1>
+            <div class="likeStack">
+                <span class="likes"><a id="clicks3">14</a> Like(s)</span>
+                <button type="button" onClick="onClick3()" class="button shadow">Like</button>
+            </div>
+        </div>
+        <div class="pContainer">
+            <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="cookie d-flex">
+        <p>This is a cookie. It tracks things for a third-party website. 
+            Click I accept to agree to our terms and services
+        </p>
+        <button onclick="cookieGo('.cookie')">I accept</button>
+    </div>
+    </div>
+    <script src="likes.js"></script>
+</body>
+</html>
+
+<!-- 
+<h1>Some User</h1>
+            <p class="likes"><a id="clicks">0</a> Like(s)</p>
+            <button type="button" onClick="onClick()" class="button shadow">Like</button>
+            <p>This is some text to change at a later date.</p> -->
